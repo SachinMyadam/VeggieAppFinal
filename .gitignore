@@ -1,50 +1,17 @@
-Expo
+# Expo
 .expo/
 web-build/
 dist/
 
-Metro
+# Metro Bundler
 .metro-cache/
 
-Node
+# Node
 node_modules/
 
-Firebase - local files P.firebase/ firebase-debug ifications for restocks, price drops, and order completions directly from their dashboard.
-⚙️ Technology Stack
-Frontend (Mobile App): React Native, Expo, Expo Router, TypeScript
+# Firebase local emulator data
+.firebase/
 
-Backend & Database: Google Firebase (Firestore, Firebase Authentication)
-
-Admin Panel: HTML5, CSS3, JavaScript (ES Modules), Bootstrap 5
-
-Push Notifications: Expo Push Notifications Service
-
-🚀 Setup & Installation
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-git clone [https://github.com/your-username/VeggieAppFinal.git](https://github.com/your-username/VeggieAppFinal.git)
-cd VeggieAppFinal
-
-Install dependencies:
-
-yarn install
-
-Configure Firebase:
-
-Create a firebaseConfig.js file in the root of the project.
-
-Copy your Firebase project's configuration object into this file.
-
-Run the mobile app:
-
-npx expo start
-
-Run the admin panel:
-
-Serve the project folder using a local server.
-
-npx serve
-
-Open http://localhost:3000/admin.html in your browser.
+# Secrets - DO NOT UPLOAD TO GITHUB
+.env
+config.js
